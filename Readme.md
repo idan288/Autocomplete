@@ -1,6 +1,6 @@
 # Autocomplete
 This project is implemention of Autocomplete service.</br>
-In this service I Java 8, Spring boot 2.6.7 and H2 DB.
+In this service I used Java 8, Spring boot 2.6.7 and H2 DB.
 
 ## Data Structure explanation
  In this implementation, I used TRIE Data Structure to save the word.</br>
