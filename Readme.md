@@ -11,7 +11,7 @@ In this service we have 3 REST API'S.</br>
  1. API for adding new word.</br>
       `Method:` POST</br>
       `URL:` http://localhost:9090/autocomplete/add/{wordToAdd} The parameter is taken from the path.</br>
-      `Success response:`.</br>
+      `Success response:`</br>
        ```json
        {
           "id": 202,
