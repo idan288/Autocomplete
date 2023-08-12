@@ -10,8 +10,8 @@ In this service I used Java 8, Spring boot 2.6.7 and H2 DB.
 In this service we have 3 REST API'S.</br>
  1. API for adding new word.</br>
       `Method:` POST</br>
-      `URL:` http://localhost:9090/autocomplete/add/{wordToAdd} The parameter is taken for the path.</br>
-      `Response:`  if succeed returning the item that was added.</br>
+      `URL:` http://localhost:9090/autocomplete/add/{wordToAdd} The parameter is taken from the path.</br>
+      `Response:`  for succeed returning the item that was added.</br>
        ```json
        {
           "id": 202,
@@ -30,7 +30,7 @@ In this service we have 3 REST API'S.</br>
       ```
 2. API for searching prefix case senstive.</br>
       `Method:` GET</br>
-      `URL:` http://localhost:9090/autocomplete/sensitive/{prefix} The parameter is taken for the path.</br>
+      `URL:` http://localhost:9090/autocomplete/sensitive/{prefix} The parameter is taken from the path.</br>
       `Response:` list of the matching words.</br>
        `
        [
@@ -40,7 +40,7 @@ In this service we have 3 REST API'S.</br>
        `  
 3. API for searching prefix case insenstive.</br>
       `Method:` GET</br>
-      `URL:` http://localhost:9090/autocomplete/insensitive/{prefix} The parameter is taken for the path.</br>
+      `URL:` http://localhost:9090/autocomplete/insensitive/{prefix} The parameter is taken from the path.</br>
       `Response:`  list of the matching words.</br>
       
    
