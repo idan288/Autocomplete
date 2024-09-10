@@ -1,10 +1,10 @@
 # Autocomplete
 This project is implemention of Autocomplete service.</br>
-In this service I used Java 8, Spring boot 2.6.7 and H2 DB.
+This service implemented using Java 8, Spring Boot 2.6.7, Docker, and H2 Database.
 
 ## Data Structure explanation
- In this implementation, I used TRIE Data Structure to save the word.</br>
- In a TRIE Data Structure, the Worst Case is O(Length-Of-Word).
+ In this implementation, I utilized a TRIE data structure to store words.</br>
+ The TRIE data structure ensures efficient word storage and retrieval, with a worst-case time complexity of O(length-of-word).
 
 ## Rest API
 In this service we have 3 REST API'S.</br>
