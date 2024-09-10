@@ -4,7 +4,7 @@ This service implemented using Java 8, Spring Boot 2.6.7, Docker, and H2 Databas
 
 ## Data Structure explanation
  In this implementation, I utilized a TRIE data structure to store words.</br>
- The TRIE data structure ensures efficient word storage and retrieval, with a worst-case time complexity of O(length-of-word).
+ The TRIE data structure ensures efficient word storage and retrieval, </br> with a worst-case time complexity of O(length-of-word).
 
 ## Rest API
 In this service we have 3 REST API'S.</br>
